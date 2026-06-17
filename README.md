@@ -17,5 +17,5 @@ A fully functional, lightweight secure inventory management system built nativel
 
 **Clone the Repository:**
    ```bash
-   git clone <your-repository-link>
+   git clone <https://github.com/floresafqh/SSD-Project-2026-.git>
    cd secure_inventory_project

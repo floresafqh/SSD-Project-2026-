@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card p-4 shadow-sm border-0">
+        <h2 class="text-primary border-bottom pb-2">User Profile</h2>
+        <p><strong>Username:</strong> {{ request.user.username }}</p>
+        <p><strong>Account Group Mapping:</strong> Staff User Interface Boundary</p>
+        <p><strong>Last Interactive Session Login:</strong> {{ request.user.last_login }}</p>
+        <a href="{% url 'dashboard' %}" class="btn btn-secondary mt-3">Back to Dashboard</a>
+    </div>
+</div>
+{% endblock %}
